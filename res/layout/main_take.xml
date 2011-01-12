@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent">
+
+<TableLayout android:id="@+id/TableLayout02" android:layout_height="fill_parent" android:layout_width="216px"><SurfaceView android:id="@+id/surface_camera" style="@drawable/icon" android:drawingCacheQuality="auto" android:layout_height="334px" android:layout_width="216px">
+
+</SurfaceView><TableRow android:id="@+id/TableRow01" android:layout_height="wrap_content" android:layout_width="fill_parent"><Button android:text="TAKE" android:layout_height="50px" android:id="@+id/Button_Take" android:layout_width="fill_parent"></Button></TableRow></TableLayout>
+
+
+
+
+
+
+
+</LinearLayout>

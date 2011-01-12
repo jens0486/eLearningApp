@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout android:id="@+id/TableLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"><TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/TextView_welcome" android:text="Willkommen beim Picture-eLearningApp" android:layout_marginBottom="50pt"></TextView><Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="Spielen" android:id="@+id/Button_Play"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Karte anlegen" android:id="@+id/Button_CreateCard"></Button>
+
+</TableLayout>
