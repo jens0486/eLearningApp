@@ -51,8 +51,7 @@ public class NetworkManager {
 
 		JSONObject json = null;
 		HttpClient cl = new DefaultHttpClient();
-		HttpGet get = new HttpGet(
-				"http://192.168.2.1:8080/PictureWeb/api/android/login/" + email
+		HttpGet get = new HttpGet("http://192.168.2.1:8080/PictureWeb/api/android/login/" + email
 						+ "/" + password);
 		try {
 

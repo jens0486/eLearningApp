@@ -3,21 +3,18 @@ package de.seideman.app;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import de.seideman.app.R;
-import de.seideman.app.activities.CardCreator;
-import de.seideman.app.activities.Player;
-import de.seideman.app.network.NetworkManager;
 import android.app.Activity;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.os.Bundle;
-import android.text.InputFilter.LengthFilter;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.view.ViewDebug.FlagToString;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+import de.seideman.app.activities.CardCreator;
+import de.seideman.app.activities.Player;
+import de.seideman.app.network.NetworkManager;
 
 public class Picture_eLearning extends Activity implements OnClickListener {
 	/** Called when the activity is first created. */
@@ -88,8 +85,8 @@ public class Picture_eLearning extends Activity implements OnClickListener {
 					} else {
 						Toast.makeText(this,
 								"Falsche eMail oder falsches Password!", 10).show();
-						//editTextPass.setText("");
-						//editTextUser.setText("");
+						editTextPass.setText("");
+						editTextUser.setText("");
 
 					}
 				} catch (JSONException e) {
